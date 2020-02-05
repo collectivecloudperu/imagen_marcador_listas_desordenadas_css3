@@ -1,0 +1,35 @@
+
+h1 {
+	text-align: center;
+	font-size: 28px;
+}
+
+.mih3 {
+	font-size: 18px;
+}
+
+.jugadores1 {
+	list-style-image: url('../img/iconobalon.png');	
+}
+
+.jugadores2  {
+    list-style: none;
+    padding-left: 0;
+}
+.jugadores2 li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.jugadores2 li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('../img/balon.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+} 
